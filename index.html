@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+  <header class="bg-nav">
+    <nav class="flex justify-between items-center w-[92%]  mx-auto">
+        <div>
+            <img class="w-16 cursor-pointer" src="./images/Tailwind_CSS_Logo.svg.png" alt="...">
+        </div>
+        <div
+            class="nav-links duration-500 md:static absolute  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5" id="ulbg">
+            <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                <li>
+                    <a class="hover:text-gray-500" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-500" href="#">Program</a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-500" href="#">blog</a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-500" href="#">about-us</a>
+                </li>
+               
+            </ul>
+        </div>
+        <div class="flex items-center gap-6">
+            <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button>
+            <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+        </div>
+</header>
+
+    
+
+
+     <div  class="flex lg:flex-row md:flex-row  md:flex-row sm:flex-col" id="div1">
+      <div class="lg:basis-1/2 md:basis-1/2 sm:basis-1/1 mx-5 flex flex-col justify-center items-center">
+        <h1  class="text-4xl">Healty in side</h1>
+        <h1 class="text-4xl"> <span class="text-cyan-500">fresh</span> out side</h1>
+        <p>Exercise is a very important need for our body. Health and</p> 
+        <p>fitness will be obtained if you can do regular exercise and</p> 
+        <p>run a healthy routine.</p>
+             <div class="flex flex-row mt-5">
+              <button  class="bg-cyan-400 py-2 px-3 rounded">Get started-></button>
+              <button class="ml-5 bg-blue-600 py-2 px-3 rounded">learn-more-></button>
+             </div>   
+            
+           
+      </div>
+       <div class=" lg:basis-1/2 md:basis-1/2 sm:basis-1/1 flex justify-center align-center" id="imgbg1">
+      <img class="w-70 h-80 justify-center sm:mt-3" src="./images/image 77.svg" id="img1" alt="">
+ 
+       </div> 
+     </div> 
+     
+    <div  class="flex md:flex-row sm:flex-col mt-10 " id="textt">
+      <div class="basis-1/2 md:basis-1/2  sm:basis-1/1 ml-20">
+        <h2 class="text-3xl">Healty in side</h2>
+        <h2 class="text-3xl"> <span class="text-cyan-500">fresh</span> out side</h2>
+      </div>
+      <div id="textp" class="basis-1/2  md:basis-1/2  sm:basis-1/1 ml-20">
+         <div>
+            <p>Exercise is a very important need for our body. Health and</p> 
+            <p>fitness will be obtained if you can do regular exercise and</p> 
+                <p>run a healthy routine.</p>
+         </div>
+         
+      </div>
+    </div>  
+       
+  <div class="flex flex-row mt-20 ml-5 py-10 " id="rowround">
+    <div class="basis-1/3  ml-5 flex flex-row" id="poco1">
+        <div class="iconcontainer flex justify-center mr-3 py-2 items-center"><ion-icon class="text-5xl " name="accessibility"></ion-icon></div>
+        <div class="flex flex-col">
+           <h4>Get that 11 line</h4> 
+           <h4>In 13  days</h4>
+            <div class="flex flex-row">
+                <button class="rounded-full ...">learn more</button>
+
+           <ion-icon class="mt-1 ml-2" name="arrow-forward-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="basis-1/3 ml-5  flex flex-row" id="poco2">
+        <div class="iconcontainer flex justify-center mr-3 py-2 items-center"><ion-icon class="text-5xl " name="accessibility"></ion-icon></div>
+        <div class="flex flex-col">
+           <h4>Get that 11 line</h4> 
+           <h4>In 13  days</h4>
+            <div class="flex flex-row">
+                <button class="rounded-full ...">learn more</button>
+
+           <ion-icon class="mt-1 ml-2" name="arrow-forward-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="basis-1/3 ml-5 1 flex flex-row" id="poco3">
+        <div class="iconcontainer flex justify-center mr-3 py-2 items-center"><ion-icon class="text-5xl " name="accessibility"></ion-icon></div>
+        <div class="flex flex-col">
+           <h4>Get that 11 line</h4> 
+           <h4>In 13  days</h4>
+            <div class="flex flex-row">
+                <button class="rounded-full ...">learn more</button>
+
+           <ion-icon class="mt-1 ml-2" name="arrow-forward-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+  </div>
+   
+   <div class=" flex flex-row mt-20" id="lastsec">
+    <div class="basis-1/2"><img class="h-80 w-80 ml-10" src="./images/image 78.png" alt=""></div>
+    <div class="basis-1/2 flex flex-col" id="lasttext">
+      <h1 class="text-2xl">Best full body workout </h1>
+        <h1 class="text-2xl mb-5"> to lose fat</h1>
+        <p>Exercise is a very important need for our body.</p>
+           <p>Health and fitness will be obtained if you can do regular</p>
+            <p>exercise and run a healthy routine. Even at home we still</p>
+           <p>have to be diligent in exercising, either alone or with your friends at home.
+           </p>
+           <button class="" id="btnlast">learn more-></button>
+    </div>
+   </div>
+
+
+   <script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleMenu(e){
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('top-[9%]')
+    }
+</script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
